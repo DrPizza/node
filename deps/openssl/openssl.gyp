@@ -12,12 +12,17 @@
         'OPENSSLDIR="ssl"',
         'ENGINESDIR="ssl/lib/engines"',
         'OPENSSL_THREADS',
+        'ZLIB',
         'PURIFY',
         '_REENTRANT',
       ],
 
       'cflags!': [
         '-ansi'
+      ],
+
+      'dependencies': [
+        'deps/zlib/zlib.gyp:zlib',
       ],
 
       'conditions': [
