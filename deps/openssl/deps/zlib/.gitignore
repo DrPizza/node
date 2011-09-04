@@ -1,0 +1,10 @@
+CVS
+*.obj
+*.dll
+*.lib
+*.res
+*.sdf
+build
+msvs/ipch
+contrib/vstudio/vc10/ipch
+
